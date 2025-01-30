@@ -65,4 +65,6 @@ It's been tested extensively with godbolt compiler explorer, however I cannot pr
 It is also worth noting that despite my efforts to make the header generate well optimized code on all platforms, currently the MSVC compiler is unable to recognize what it does and according to
 godbolt compiler explorer generates rather inefficient (although correct) code. 
 
+If you want to know more how the provided functions choose correct encoding and decoding algorithm, run/examine the provided main function with couple simple tests and a brief description. 
+
 If you are interested at how various compilers and platforms compile code with this header, you can check compiler explorer's outputs. Link to godbolt with this header included: [here](https://godbolt.org/z/dKjoE8753)
